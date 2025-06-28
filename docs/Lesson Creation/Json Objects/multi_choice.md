@@ -78,7 +78,7 @@ This is a list of multiple options from which the user may pick to answer the qu
 !!! warning
 
     One of the `"options"` must must be **EXACTLY** the same as the
-    [`"answer"`](#answer) property, in order for the 
+    [`"answer"`](#answer) property, in order for it to function correctly.
 
 --- 
 
@@ -135,12 +135,12 @@ This is the answer of the question.
 ??? example "Example With Hints"
     ```json
       {
-          "type": "multi_choice",
-          "subtitle": "Sound",
-          "question": "ਚ",
-          "options": ["Cha", "Ma", "Ra", "La"],
-          "hints": ["ਚ", "ਮ", "ਰ", "ਲ"],
-          "answer": "Cha",
-          "answerText": "Cha (ਚ)"
+        "type": "multi_choice",
+        "subtitle": "Sound",
+        "question": "ਚ",
+        "options": ["Cha", "Ma", "Ra", "La"],
+        "hints": ["ਚ", "ਮ", "ਰ", "ਲ"],
+        "answer": "Cha",
+        "answerText": "Cha (ਚ)"
       },
     ```

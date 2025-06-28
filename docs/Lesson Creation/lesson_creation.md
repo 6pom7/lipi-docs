@@ -1,15 +1,15 @@
-# Formating
+# Introduction
 
 Lipi lessons are created in `json` format and are comprimised of `problem` / `page` objects. These objects can be used to build a lesson.
 
 ## Types of Objects
 
-* `multi_choice`
-* `match_prob`
-* `laga_prob`
-* `word_prob`
-* `drag_word`
-* `sound_word`
+* [`multi_choice`](./Json%20Objects/multi_choice.md)
+* [`match_prob`](./Json%20Objects/match_prob.md)
+* [`laga_prob`](./Json%20Objects/laga_prob.md)
+* [`word_prob`](./Json%20Objects/word_prob.md)
+* [`drag_word`](./Json%20Objects/drag_word.md)
+* [`sound_word`](./Json%20Objects/sound_word.md)
 * `info_page`
 * `final_page`
 
